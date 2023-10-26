@@ -30,6 +30,7 @@
     <header class="d-flex align-items-center">
       <div class="container-fluid">
         <div class="row bg-white align-items-center">
+          <!-- Logo -->
           <div class="col-auto">
             <img
               src="img/mobile-logo.png"
@@ -38,8 +39,9 @@
             />
             <img src="img/logo.svg" alt="Dashboard" class="d-none d-lg-block" />
           </div>
+          <!-- /Logo -->
+          <!-- Ricerca -->
           <div class="gf-search-input col">
-            <!-- ricerca -->
             <div class="gf-input-group input-group">
               <span class="input-group-text p-2"
                 ><i class="fa-solid fa-magnifying-glass"></i
@@ -51,8 +53,9 @@
                 aria-label="search"
               />
             </div>
-            <!-- /ricerca-->
           </div>
+          <!-- /Ricerca-->
+          <!-- Menu -->
           <div class="col-auto">
             <ul class="list-unstyled d-flex align-items-center gap-4 mb-0">
               <li class="d-none d-lg-block"><a href="#">a</a></li>
@@ -61,14 +64,34 @@
               <li class=""><a href="#">d</a></li>
             </ul>
           </div>
+          <!-- /Menu -->
         </div>
       </div>
     </header>
     <!-- /header -->
     <!-- main -->
     <div class="main-container d-flex">
-      <div class="gf-sidebar flex-shrink-0">left</div>
+      <!-- Sidebar -->
+      <div class="gf-sidebar flex-shrink-0 p-4">
+        <ul class="h-100 d-flex flex-column list-unstyled">
+          <li>
+            <a href="#">i <span class="d-none d-lg-inline">Home</span></a>
+          </li>
+          <li>
+            <a href="#">i <span class="d-none d-lg-inline">Stats</span></a>
+          </li>
+          <li>
+            <a href="#">i <span class="d-none d-lg-inline">Signals</span></a>
+          </li>
+          <li class="mt-auto">
+            <a href="#">i <span class="d-none d-lg-inline">Admin</span></a>
+          </li>
+        </ul>
+      </div>
+      <!-- /Sidebar -->
+      <!-- Main Content -->
       <main class="flex-grow-1">right</main>
+      <!-- /Main Content -->
     </div>
     <!-- main -->
 
