@@ -29,3 +29,9 @@ Main
   height: calc(100vh - var(--header-h));
   background-color: green;
 }
+
+@media (min-width: 992px) {
+  .gf-sidebar {
+    width: 9.375rem;
+  }
+}
