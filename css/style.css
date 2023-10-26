@@ -47,9 +47,20 @@ Main
 *******************
 */
 
+.gf-sidebar {
+  background-color: #051e34;
+  background-image: url(../img/sidebar-bg.png);
+}
+
 .main-container {
   height: calc(100vh - var(--header-h));
 }
+
+/*
+*******************
+Responsive
+*******************
+*/
 
 @media (min-width: 992px) {
   .gf-sidebar {
