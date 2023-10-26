@@ -11,15 +11,59 @@
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
-
     <!-- /Bootstrap-->
+    <!-- CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- /CDN -->
     <!-- My CSS-->
     <link rel="stylesheet" href="css/style.css" />
     <!-- /My CSS-->
   </head>
   <body>
     <!-- header -->
-    <header>header</header>
+    <header class="d-flex align-items-center">
+      <div class="container-fluid">
+        <div class="row bg-white align-items-center">
+          <div class="col-auto">
+            <img
+              src="img/mobile-logo.png"
+              alt="Dashboard"
+              class="gf-logo-small d-lg-none img-fluid"
+            />
+            <img src="img/logo.svg" alt="Dashboard" class="d-none d-lg-block" />
+          </div>
+          <div class="gf-search-input col">
+            <!-- ricerca -->
+            <div class="gf-input-group input-group">
+              <span class="input-group-text p-2"
+                ><i class="fa-solid fa-magnifying-glass"></i
+              ></span>
+              <input
+                type="text"
+                class="form-control ps-0 shadow-none"
+                placeholder="Prova a cercare: lezioni di Laravel"
+                aria-label="search"
+              />
+            </div>
+            <!-- /ricerca-->
+          </div>
+          <div class="col-auto">
+            <ul class="list-unstyled d-flex align-items-center gap-4 mb-0">
+              <li class="d-none d-lg-block"><a href="#">a</a></li>
+              <li class="d-none d-lg-block"><a href="#">b</a></li>
+              <li class="d-none d-lg-block"><a href="#">c</a></li>
+              <li class=""><a href="#">d</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
     <!-- /header -->
     <!-- main -->
     <div class="main-container d-flex">
