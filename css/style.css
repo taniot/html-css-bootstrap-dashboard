@@ -1,0 +1,31 @@
+/*
+*******************
+Variables
+*******************
+*/
+
+:root {
+  --header-h: 4.375rem;
+}
+
+/*
+*******************
+Header
+*******************
+*/
+
+header {
+  height: var(--header-h);
+  background-color: yellow;
+}
+
+/*
+*******************
+Main
+*******************
+*/
+
+.main-container {
+  height: calc(100vh - var(--header-h));
+  background-color: green;
+}
